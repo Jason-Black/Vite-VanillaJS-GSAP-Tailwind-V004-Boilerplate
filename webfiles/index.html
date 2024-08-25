@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS and GSAP Test</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen">
+
+    <!-- Header Section -->
+    <h1 id="main-title" class="text-4xl font-bold mb-4">Tailwind CSS Installation Test</h1>
+    <h2 id="subtitle" class="text-2xl text-gray-300 mb-8">Let's see if Tailwind and GSAP are working!</h2>
+
+    <!-- Example Buttons -->
+    <div id="button-group" class="space-x-4">
+        <button id="primary-button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Primary Button
+        </button>
+        <button class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">
+            Success Button
+        </button>
+        <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+            Danger Button
+        </button>
+    </div>
+
+    <!-- Example Divs with Tailwind Styling -->
+    <div id="content-divs" class="mt-12 space-y-4">
+        <div class="bg-gray-800 p-4 rounded shadow-lg">
+            <p class="text-lg">This is a dark-themed div with some padding and rounded corners.</p>
+        </div>
+        <div class="bg-yellow-500 p-4 rounded shadow-lg">
+            <p class="text-lg text-black">This is a highlighted div with a bright background.</p>
+        </div>
+        <div class="bg-purple-500 p-4 rounded shadow-lg">
+            <p class="text-lg">This is a div with a cool purple background.</p>
+        </div>
+    </div>
+
+    <!-- Include the compiled JS file -->
+    <script type="module" src="./script.js"></script>
+</body>
+</html>
